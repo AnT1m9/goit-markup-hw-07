@@ -74,7 +74,7 @@ img {
     
 }
 .container {
-    width: 1158px;
+    /* width: 1158px; */
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -432,16 +432,23 @@ fill: #8E8F99;
     justify-content: center;
     gap: 24px;
 }
-.section-card {
-    color:var(--dark);
-    background: var(--light);
-}
+
 
 /*----TEAM----*/
 
 .section-card { 
-    padding-top: 120px;   
-    padding-bottom: 120px;
+    padding-top: 96px;   
+    padding-bottom: 96px;
+    color:var(--dark);
+    background: var(--light);
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.section-card > .container{
+    padding: 0;
 }
 .header-team {
     font-family:var(--main-font);
@@ -450,22 +457,34 @@ fill: #8E8F99;
     line-height:1.1;
     color:var(--dark);
     letter-spacing: 0.02em; 
-    margin-bottom: 72px;
+    /* margin-bottom: 72px; */
+    display: flex;
+    justify-content: center;
     text-align: center;
+    align-items: center;
+    margin-bottom: 72px;
 }
 .card-list {
     display: flex;
+    flex-wrap: wrap;
+    /* display: block; */
     justify-content: center;
-    gap: 24px;
-    
+    align-items: center;
+    text-align: center;
+    /* gap: 24px; */
+    gap: 72px;
+
 }
 .card-item {
     background: var(--white);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 72px) / 4);
+    width: 100%;
+    /* width: calc((100% - 72px) / 4); */
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    /* margin-top: 72px; */
+    align-items: center;
+    width: 264px;
 }
 .card-people{
     padding-top: 32px;
@@ -492,6 +511,7 @@ fill: #8E8F99;
 .card-icons-list {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 24px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -542,19 +562,22 @@ fill: #8E8F99;
 }
 .cust-icons-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 24px;
+    gap: 16px;
+    row-gap: 72px;
 }
 
 .cust-icons-item{
-width: calc((100% - 120px ) / 6) ;
+/* width: calc((100% - 120px ) / 6) ; */
+width: calc((100% - 16px) / 2);
 height:88px;
 fill: #8E8F99;
 border: 1px solid #8E8F99;
 border-radius: 4px;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+width: 190px;
 }
 .cust-link {
 width: 100%;
@@ -584,6 +607,7 @@ fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: var(--primary-brand);
 }
 .cust-pic{
+    /* width: 190px; */
     fill: #8E8F99;
     align-items: center;
 padding: 16px 32px;

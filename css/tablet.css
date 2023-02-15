@@ -1,0 +1,40 @@
+@media screen and (min-width:768px){
+    .container{
+        width: 768px;
+        
+    }
+    /* -----team---- */
+    .section-card { 
+        padding-top: 96px;
+        padding-bottom: 104px;
+        
+    }
+    .header-team {
+        /* margin-bottom: 72px; */
+    }
+    .card-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 24px;
+        row-gap: 64px;
+        
+    }
+    .card-item {
+        width: calc((100% - 24px) / 2);
+        width: 264px;
+        max-width: 100%;
+        
+    }
+    /* -------customers------ */
+    .cust-icons-list {
+        gap: 24px;
+        row-gap: 72px;
+    }
+    .cust-icons-item{
+        width: calc((100% - 48px ) / 3)
+    }
+    .cust-icons-item{
+        width: 168px;
+    }
+}
