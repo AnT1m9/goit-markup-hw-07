@@ -9,6 +9,21 @@
         list-style: none;
         box-sizing: border-box;
         }
+
+        /* ---- header---- */
+        .header-list{
+            display: flex;
+            gap: 40px;
+        }
+    .header-contact{
+        display: flex;
+        gap: 40px;
+        
+    }
+    .header-menu-btn{
+        display: none;
+    }
+    
     /*-----SECTIONS-SOLUTIONS-----*/
 
 .section-solutions{
@@ -378,6 +393,9 @@ fill: #8E8F99;
         width: calc((100% - 72px) / 3);
         row-gap: 48px;
         }
+        .potrfolio-list.wrap{
+            --items: 3;
+            }
         .portfolio-item{
             /* width: 360px; */
             /* max-width: 100%; */
@@ -386,7 +404,7 @@ fill: #8E8F99;
         .portfolio-item-wrapper{
             /* width: 360px; */
         }
-        .wrap{
+        /* .wrap{
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
@@ -397,6 +415,11 @@ fill: #8E8F99;
             padding: 0;
             margin: 0;
             list-style: none;
+        } */
+        .portfolio-img{
+            width: 360px;
+            height: 300px;
+        }
 
 
 
