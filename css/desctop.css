@@ -386,4 +386,18 @@ fill: #8E8F99;
         .portfolio-item-wrapper{
             /* width: 360px; */
         }
+        .wrap{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            row-gap: 48px;
+            column-gap: 24px;
+            background-color:var(--white);
+            outline: 1px solid transparent;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+
+
+
 }
