@@ -3,6 +3,38 @@
         width: 768px;
         
     }
+/*-----SECTIONS-SOLUTIONS-----*/
+    .solutions-text {
+        font-weight: 700;
+        font-size: 56px;
+    }
+    /* ---- solutions 4 items---- */
+
+.solutions-subtitle {   
+    padding-top: 96px;
+    padding-bottom: 96px;
+    
+}
+.solutions-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+/* row-gap: 72px; */
+    /* width: calc((100% - 24px) / 2); */
+    
+}
+.solutions-item {
+    width: 356px;
+}
+.item-hard{
+    display: block;
+    
+}
+.hard-text { 
+    display: flex;
+}
     /* -----team---- */
     .section-card { 
         padding-top: 96px;
@@ -36,5 +68,31 @@
     }
     .cust-icons-item{
         width: 168px;
+    }
+
+    /*-----FOOTER-----*/
+
+    
+
+    /* -----portfolio page----- */
+    /* .button-list{
+        
+        gap: 24px;
+        margin-bottom: 72px;
+        
+    } */
+    .potrfolio-list {
+    width: calc((100% - 48px) / 2);
+    
+    row-gap: 72px;
+    }
+    
+    .portfolio-item{
+        /* width: calc((100% - 24px) / 2); */
+        
+    }
+    .portfolio-item{
+        width: 356px;
+        /* max-width: 100%; */
     }
 }
