@@ -59,20 +59,77 @@
         
     }
     /* -------customers------ */
-    .cust-icons-list {
+    .cust-icons-list  {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
         gap: 24px;
         row-gap: 72px;
+        /* width: 552px; */
+        padding: 0 108px;
+        /* flex-basis: calc((100% - 48px) / 3) */
     }
     .cust-icons-item{
-        width: calc((100% - 48px ) / 3)
+        flex-basis: calc((100% - 48px) / 3);
+        max-width: 168px;
     }
     .cust-icons-item{
-        width: 168px;
+        /* width: 168px; */
     }
 
     /*-----FOOTER-----*/
+    .footer > .container{
+        display:flex;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        justify-content: left;
+        width: 552px;
+        column-gap: 24px;
+        /* row-gap: 72px; */
+        
+    }
+    .logo-box{
+        /* margin-right: 24px; */
+    }
+    .footer-logo {
+        justify-content: flex-start;
+    }
+    .footer-text{
+        width: 264px;
+    }
+    .soc-box{
+        margin: 0;
+    }
+    .subscribe-box > .container{
+        display: block;
+        margin-top: 0;
+        /* align-items: flex-start; */
+        justify-content: left;
 
-    
+    }
+    .footer-soc-title{
+        /* display: flex; */
+        /* justify-content: flex-start; */
+        /* justify-content: center; */
+    }
+    .subscribe-title{
+        display: block;
+    }
+    .subscribe-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 24px;
+    } 
+    .subscribe-input {
+        width: 264px;
+    }
+    .subscribe-button{
+        margin: 0;
+        
+    }
 
     /* -----portfolio page----- */
     /* .button-list{
