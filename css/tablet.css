@@ -181,7 +181,7 @@
     /* justify-content: space-between; */
     justify-content: center;
     align-items: center;
-    width: calc((100% - 24px) / 2);
+    /* width: calc((100% - 24px) / 2); */
     /* width: 768px; */
     /* --items:2; */
     padding-left: 16px;
@@ -189,14 +189,14 @@
     column-gap: 24px;
     row-gap: 72px;
     }
-    .potrfolio-list{
+    /* .potrfolio-list{
         --items: 2;
-        }
+        } */
     .portfolio-item{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        /* width: calc((100% - 24px) / 2); */
+        width: calc((100% - 24px) / 2);
         /* width: 356px; */
         width: calc((100% - 24px) / 2);
         
