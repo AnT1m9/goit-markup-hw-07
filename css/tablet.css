@@ -175,9 +175,6 @@
         margin-bottom: 72px;
         justify-content: center;
     }
-    .portfolio.container{
-        
-    }
     .potrfolio-list {
         display: flex;
     flex-wrap: wrap;
@@ -201,6 +198,7 @@
         justify-content: center;
         /* width: calc((100% - 24px) / 2); */
         /* width: 356px; */
+        width: calc((100% - 24px) / 2);
         
     }
     .portfolio-item{

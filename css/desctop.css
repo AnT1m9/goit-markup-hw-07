@@ -409,7 +409,11 @@ fill: #8E8F99;
         
     } */
     .potrfolio-list{
-        width: calc((100% - 72px) / 3);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: calc((100% - 48px) / 3);
         row-gap: 48px;
         }
         .potrfolio-list.wrap{
@@ -419,6 +423,7 @@ fill: #8E8F99;
             /* width: 360px; */
             /* max-width: 100%; */
             /* width: calc((100% - 72px) / 3); */
+            width: calc((100% - 48px) / 3);
         }
         .portfolio-item-wrapper{
             /* width: 360px; */
@@ -440,6 +445,7 @@ fill: #8E8F99;
             height: 300px;
         }
 
+        
 
 
 }
