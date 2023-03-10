@@ -202,14 +202,14 @@ display: flex;
     /* width: 30px;
     height: 19px; */
     /* background-color: transparent; */
-background-color: tomato;
+background-color: transparent;
 
     border: none;
 padding: 0;
 margin-left: auto;
 }
 .header-menu-icon{
-    color: green;
+    stroke: #000000;
 }
 .icon-burger-mob-menu{
     color: blueviolet
